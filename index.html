@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="corona.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Corona Archive</title>
+</head>
+
+<body background-color="black">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a id="ekuqe" class="navbar-brand" href="index.html">Corona Archive</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a id="ekuqe" href="index.html">Home</a></li>
+        <li><a id="ekuqe" href="testcases.html">Test Cases</a></li>
+        <li> <a id="ekuqe" href="imprint.html">Imprint</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div id="thespace" class="col-lg-12"></div>
+
+  <div class="row">
+    <div id="coronapic" class="col-lg-6"></div>
+    <div id="login" class="col-lg-6">
+
+      <h1 style="color: rgb(204, 204, 204);">Corona Archive</h1>
+      <h3 style="color: rgb(150, 150, 150);">Help us control the spreading of Covid </h3>
+      <br>
+      <h4 style="color: rgb(99, 99, 99);">Pick your role and register/sign in to update your status in order to help at
+        hindering the spreading of virus</h4>
+      <h4 style="color: rgb(77, 77, 77);">Your data will be used to warn you about potential virus transimitons or
+        identify other risked people</h4>
+      <br>
+      <h4>Use the links below to find the nearest test/vaccine centers</h4>
+
+      <div class="row">
+        <br>
+        <div id="get_tested" class="col-lg-6"><button class="button_status"><span><a
+                style="color:white; text-decoration: none;" href="https://covidzentrum.de/en/corona-test-bremen/">Get
+                Tested</a></span></button></div>
+        <div id="get_vaccinated" class="col-lg-6"><button id="get_vaccine" class="button_status"><span><a
+                style="color:white; text-decoration: none;" href="https://www.vaccines.gov/">Get
+                Vaccinated</a></span></button>/</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="thespace" class="col-lg-12">
+    <center>
+      <h4 style="color: rgb(150, 150, 150);">Please choose one of the roles below:</h4>
+    </center>
+  </div>
+
+
+
+  <div class="row">
+    <div id="roles" class="col-lg-3">
+      <div class="container_roles">
+        <img src="visitor.png" alt="Avatar" class="image_roles">
+        <div class="overlay_roles">
+          <div class="text_roles">
+            <h3>Visitor</h3>
+            <h5>Citizens or visitors can use the web service to indicate whether they have entered a particular place
+              and when they have done so</h5>
+            <div class="row">
+              <div id="get_tested" class="col-lg-12"><button class="button_status"><span><a id="tekstreg"
+                      href="registerForm_visitor.php">Register</a></span></button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div id="roles" class="col-lg-3">
+
+      <div class="container_roles">
+        <img src="hospital.png" alt="Avatar" class="image_roles">
+        <div class="overlay_roles">
+          <div class="text_roles">
+            <h3>Hospital</h3>
+            <h5>Hospitals can use the web service to mark people as infected and track anyone else that has been in
+              contact with an infected person.</h5>
+            <div class="row">
+              <div id="get_tested" class="col-lg-12"><button class="button_status"><span><a id="tekstreg"
+                      href="login_h.php">Login</a></span></button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div id="roles" class="col-lg-3">
+
+      <div class="container_roles">
+        <img src="place.png" alt="Avatar" class="image_roles">
+        <div class="overlay_roles">
+          <div class="text_roles">
+            <h3>Place</h3>
+            <h5>Places which are frequently visited by people can use the web service to get access to a QR code, which
+              identifies their place. Citizens will scan this QR code to record their presence.</h5>
+            <div class="row">
+              <div id="get_tested" class="col-lg-12"><button class="button_status"><span><a id="tekstreg"
+                      href="registerForm_places.php">Register</a></span></button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div id="roles" class="col-lg-3">
+
+      <div class="container_roles">
+        <img src="agency.png" alt="Avatar" class="image_roles">
+        <div class="overlay_roles">
+          <div class="text_roles">
+            <h3>Agency</h3>
+            <h5>The agency or the evaluation client can use the web service to generate corona- related reports by
+              collecting data from the database.</h5>
+            <div class="row">
+              <div id="get_tested" class="col-lg-12"><button class="button_status"><span><a id="tekstreg"
+                      href="login_a.php">Login</a></span></button></div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div id="thespace" class="col-lg-12"></div>
+    <div id="thespace" class="col-lg-12"></div>
+    <div id="thespace" class="col-lg-12"></div>
+    <div id="thespace" class="col-lg-12"></div>
+
+
+
+    <div class="footer">
+      <p>Corona Archive</p>
+    </div>
+
+</body>
+
+</html>
